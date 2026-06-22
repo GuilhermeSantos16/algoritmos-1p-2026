@@ -2,12 +2,12 @@
 
 const int ALUNOS=1000, TAM_NOME=100, TAM_RES=20;
 
-void copiar_string(char *frase1, char *frase2){
+void copiar_string(char *string1, char *string2){
     int i;
-    for(i = 0; frase2[i] != '\0'; i++){
-        frase1[i] = frase2[i];
+    for(i = 0; string2[i] != '\0'; i++){
+        string1[i] = string2[i];
     }
-    frase1[i] = '\0';       
+    string1[i] = '\0';       
 }
 int main(){
     int cod[ALUNOS], aux_cod;
